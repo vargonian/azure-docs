@@ -265,7 +265,7 @@ The queue trigger provides several [metadata properties](functions-triggers-bind
 
 |Property|Type|Description|
 |--------|----|-----------|
-|`QueueTrigger`|`string`|Queue payload (if a valid string). If the queue message payload as a string, `QueueTrigger` has the same value as the variable named by the `name` property in *function.json*.|
+|`QueueTrigger`|`string`|Queue payload (if a valid string). If the queue message payload is a string, `QueueTrigger` has the same value as the variable named by the `name` property in *function.json*.|
 |`DequeueCount`|`int`|The number of times this message has been dequeued.|
 |`ExpirationTime`|`DateTimeOffset`|The time that the message expires.|
 |`Id`|`string`|Queue message ID.|
